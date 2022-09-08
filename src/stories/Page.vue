@@ -76,30 +76,30 @@
 </template>
 
 <script>
-import "./page.css";
-import MyHeader from "./Header.vue";
+  import "./page.css";
+  import MyHeader from "./Header.vue";
 
-export default {
-  name: "my-page",
+  export default {
+    name: "my-page",
 
-  components: { MyHeader },
+    components: { MyHeader },
 
-  data() {
-    return {
-      user: null,
-    };
-  },
-
-  methods: {
-    onLogin() {
-      this.user = { name: "Jane Doe" };
+    data() {
+      return {
+        user: null,
+      };
     },
-    onLogout() {
-      this.user = null;
+
+    methods: {
+      onLogin() {
+        this.user = { name: "Jane Doe" };
+      },
+      onLogout() {
+        this.user = null;
+      },
+      onCreateAccount() {
+        this.user = { name: "Jane Doe" };
+      },
     },
-    onCreateAccount() {
-      this.user = { name: "Jane Doe" };
-    },
-  },
-};
+  };
 </script>
