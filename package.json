@@ -63,5 +63,5 @@
     "vue-loader": "^16.8.3",
     "vue-tsc": "^0.40.6"
   },
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "pnpm@7.11.0"
 }
