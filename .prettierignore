@@ -1,3 +1,2 @@
 types/generated/**/*
 **/node_modules/**/*
-**/.yarn/**/*
